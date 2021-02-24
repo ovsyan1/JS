@@ -1,0 +1,18 @@
+#pagination{
+    display: flex;
+}
+#pagination li{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    list-style-type: none;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pagination li:hover,
+#pagination li.active{
+    background-color: chartreuse;
+    cursor: pointer;
+}
