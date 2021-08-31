@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    position: fixed;
+    height: 44px;
+    /* background-color: #000; */
+    color: white;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 5%;
+    height: 40px;
+    border: 1px solid orange;
+}
+.box-container{
+    border: 0.5px solid white;
+    border-bottom: unset;
+    border-left: unset;
+    border-right: unset;
+}
+header .logo{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color:black;
+}
+header .links{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .links li{
+    list-style: none;
+}
+header .links a{
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .1);
+    text-decoration: none;
+    color: white;
+}
+#nav-toggle{
+    position: absolute;
+    top: -100px;
+}
+.line-box{
+    cursor: pointer;
+}
+.box{
+    border: 1px solid black;
+    display: flex;
+    margin: 100px 0;
+    position: relative;
+}
+.text{
+    border: 1px solid red;
+    opacity: 0.8;
+    background-color: orangered;
+    width: 300px;
+    height: 100px;
+    z-index: 3;
+    position: absolute;
+    margin-left: 350px;
+}
+.box img{
+    width: 500px;
+}
+.shet{
+    width: 100%;
+    height: 50px;
+}
